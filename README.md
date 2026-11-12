@@ -49,6 +49,32 @@ python3 outils/flux_actualites.py
   exécute `python3 outils/flux_actualites.py` puis envoie `site/` sur le serveur, ou
   garder GitHub Actions et ajouter une étape d'envoi FTP.
 
+## Mise en ligne
+
+- Dépôt : https://github.com/yay06/lmc-consulting-site
+- Adresse provisoire (validation par le client) : https://yay06.github.io/lmc-consulting-site/
+- Publication : automatique à chaque envoi sur `main` et chaque matin (onglet *Actions* du dépôt).
+
+### Passage sur www.lmcconsulting.fr (le jour du lancement)
+
+Le domaine est enregistré chez **LWS**, qui gère aussi ses DNS. Aujourd'hui, `www` pointe
+vers la Revue Fiduciaire (`lb.grouperf.com`) et la messagerie passe par Microsoft 365.
+
+1. **GitHub** : *Settings → Pages → Custom domain* : saisir `www.lmcconsulting.fr`.
+   Ne pas le faire avant le jour J : l'adresse provisoire redirigerait vers l'ancien site.
+2. **LWS** (espace client → Domaines → Zone DNS) :
+   - `www` : enregistrement **CNAME** vers `yay06.github.io.` (remplace `lb.grouperf.com`) ;
+   - `@` (lmcconsulting.fr sans www) : remplacer l'enregistrement **A** `178.33.63.120` par les
+     quatre adresses GitHub `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` ;
+   - **ne pas toucher** aux enregistrements **MX** (`…mail.protection.outlook.com`), **TXT** et
+     `autodiscover` : ils font fonctionner les e-mails du cabinet.
+3. Attendre la propagation (de quelques minutes à quelques heures), puis cocher
+   *Enforce HTTPS* dans *Settings → Pages*.
+4. Conseillé : vérifier le domaine dans les paramètres GitHub du compte
+   (*Settings → Pages → Add a domain*), pour qu'aucun autre compte ne puisse l'utiliser.
+5. Prévenir la Revue Fiduciaire : l'ancien site et son espace « Base documentaire »
+   ne seront plus accessibles depuis le domaine.
+
 ## Articles du cabinet (facultatif)
 
 Le cabinet peut publier ses propres articles en plus du flux automatique : ils passent
