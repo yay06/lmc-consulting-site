@@ -1,0 +1,54 @@
+# Récupère les actualités chaque matin et publie le site (GitHub Pages).
+name: Actualités et publication du site
+
+on:
+  schedule:
+    - cron: "15 5 * * *"   # chaque jour à 5 h 15 UTC, soit 6 h 15 ou 7 h 15 à Paris
+  push:
+    branches: [main]
+  workflow_dispatch:       # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: publication
+  cancel-in-progress: false
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Récupérer les actualités
+        run: python3 outils/flux_actualites.py
+        continue-on-error: true   # si une source est en panne, le site garde les actualités précédentes
+
+      - name: Enregistrer les nouvelles actualités
+        run: |
+          if ! git diff --quiet -- site/assets/js/flux.js; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add site/assets/js/flux.js
+            git commit -m "Actualités : mise à jour automatique"
+            git push
+          fi
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - id: deploiement
+        uses: actions/deploy-pages@v4

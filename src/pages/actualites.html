@@ -1,0 +1,72 @@
+<!--meta
+title: Actualités fiscales, sociales et juridiques · LMC Consulting
+description: L'actualité fiscale, sociale, juridique et de gestion décryptée par le cabinet LMC Consulting, avec l'échéancier des prochaines obligations.
+active: actualites
+scripts: actualites.js
+-->
+<section class="page-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Fil d'Ariane"><a href="index.html">Accueil</a><span aria-hidden="true">/</span><span>Actualités</span></nav>
+    <span class="eyebrow">Actualités</span>
+    <h1>L'actualité de votre entreprise, décryptée.</h1>
+    <p class="lead">Fiscalité, social, juridique, gestion : chaque jour, les nouveautés officielles qui concernent votre entreprise, classées par thème.</p>
+  </div>
+</section>
+
+<div class="news-toolbar">
+  <div class="container toolbar-inner">
+    <div class="chips" data-chips role="group" aria-label="Filtrer par rubrique"></div>
+    <form class="search" role="search">
+      <label class="visually-hidden" for="news-search">Rechercher un article</label>
+      {{icon:search}}
+      <input id="news-search" type="search" placeholder="Rechercher : TVA, embauche, CFE…" autocomplete="off" data-search>
+    </form>
+  </div>
+</div>
+
+<div class="container news-layout">
+  <div>
+    <p class="results-info" data-results-info aria-live="polite"></p>
+    <div data-featured></div>
+    <div class="news-list" data-grid></div>
+    <div class="empty" data-empty hidden>
+      <h2>Aucun article ne correspond</h2>
+      <p>Essayez un autre mot-clé ou affichez toutes les rubriques.</p>
+      <button class="btn btn-ghost" type="button" data-reset>Réinitialiser les filtres</button>
+    </div>
+    <div class="load-more"><button class="btn btn-ghost" type="button" data-more hidden>Afficher plus d'articles</button></div>
+    <p class="flux-note" data-flux-maj></p>
+  </div>
+
+  <aside class="aside" aria-label="Informations complémentaires">
+    <section class="panel" id="echeancier">
+      <div class="panel-head"><h2>Échéancier</h2><span>Prochaines dates</span></div>
+      <ul class="deadlines" data-deadlines data-limit="5"></ul>
+      <p class="panel-note">Calendrier indicatif. Le cabinet vous communique les dates propres à votre entreprise.</p>
+    </section>
+
+    <section class="panel panel-dark">
+      <h2>La lettre du cabinet</h2>
+      <p>Recevez une fois par mois l'essentiel de l'actualité et les échéances à venir.</p>
+      <form class="newsletter-form" data-form data-endpoint="" data-subject="Inscription à la lettre d'information" data-success="Merci, votre inscription est bien enregistrée." data-mailto-success="Votre messagerie s'ouvre : envoyez le message pour confirmer votre inscription.">
+        <div class="field">
+          <label class="visually-hidden" for="nl-email">Adresse e-mail</label>
+          <input class="input" id="nl-email" name="email" type="email" placeholder="Votre adresse e-mail" autocomplete="email" required data-label="E-mail">
+          <span class="error">Merci d'indiquer une adresse e-mail valide.</span>
+        </div>
+        <button class="btn btn-light" type="submit">Je m'inscris</button>
+        <div class="form-status" role="status" aria-live="polite"></div>
+      </form>
+    </section>
+
+    <section class="panel">
+      <h2>Outils en ligne</h2>
+      <ul class="links-list">
+        <li><a href="https://mon-entreprise.urssaf.fr" target="_blank" rel="noopener"><span>Simulateurs Urssaf<small>Cotisations, coût d'une embauche</small></span>{{icon:external}}</a></li>
+        <li><a href="https://www.impots.gouv.fr/professionnel" target="_blank" rel="noopener"><span>Espace professionnel<small>impots.gouv.fr</small></span>{{icon:external}}</a></li>
+        <li><a href="https://code.travail.gouv.fr" target="_blank" rel="noopener"><span>Code du travail numérique<small>Réponses en droit du travail</small></span>{{icon:external}}</a></li>
+      </ul>
+      <p class="panel-note"><a href="ressources.html">Tous les liens utiles</a></p>
+    </section>
+  </aside>
+</div>
