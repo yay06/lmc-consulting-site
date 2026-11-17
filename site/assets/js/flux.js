@@ -1,6 +1,6 @@
 /* Fichier généré automatiquement par outils/flux_actualites.py : ne pas modifier à la main. */
 window.LMC_FLUX = {
- "maj": "2026-11-12T15:35+01:00",
+ "maj": "2026-11-17T15:29+01:00",
  "sources": [
   {
    "nom": "Service-Public Entreprendre",
@@ -13,12 +13,22 @@ window.LMC_FLUX = {
  ],
  "articles": [
   {
+   "id": "9d7f00387d70",
+   "titre": "Micro-entrepreneur utilisant les plateformes numériques : justificatif à fournir pour le paiement de l’ARE",
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19137",
+   "date": "2026-11-17",
+   "categorie": "social",
+   "chapo": "Micro-entrepreneur utilisant les plateformes numériques : justificatif à fournir pour le paiement de l’ARE",
+   "source": "Service-Public Entreprendre",
+   "source_id": "service-public"
+  },
+  {
    "id": "31dba47f437e",
    "titre": "Les avis de CFE et d'IFER 2026 sont disponibles en ligne",
    "url": "https://entreprendre.service-public.gouv.fr/actualites/A19130",
    "date": "2026-11-05",
    "categorie": "fiscal",
-   "chapo": "Les entreprises concernées par la cotisation foncière des entreprises (CFE) et/ou l’imposition forfaitaire sur les entreprises de réseaux (IFER) peuvent désormais consulter leur avis d’impôt dans leurs espace profssionnel sur impots.gouv.fr .",
+   "chapo": "Les entreprises concernées par la cotisation foncière des entreprises (CFE) et/ou l’imposition forfaitaire sur les entreprises de réseaux (IFER) peuvent désormais consulter leur avis d’impôt dans leur espace professionnel sur impots.gouv.fr .",
    "source": "Service-Public Entreprendre",
    "source_id": "service-public"
   },
@@ -799,16 +809,6 @@ window.LMC_FLUX = {
    "date": "2026-05-18",
    "categorie": "gestion",
    "chapo": "Un guide unique visant à aider les entrepreneurs dans la reprise et la transmission d’une entreprise vient d’être publié par le Ministère des petites et moyennes entreprises. Il s’adresse à deux profils d’entrepreneurs : le cédant et le repreneur.",
-   "source": "Service-Public Entreprendre",
-   "source_id": "service-public"
-  },
-  {
-   "id": "cedd59bb66cf",
-   "titre": "Décret du 30 avril 2026 : quelles sont les évolutions en matière de formalités d’entreprise ?",
-   "url": "https://entreprendre.service-public.gouv.fr/actualites/A18904",
-   "date": "2026-05-12",
-   "categorie": "juridique",
-   "chapo": "Le décret du 30 avril 2026 apporte différentes modifications notables afin de simplifier les formalités d’entreprise. Description.",
    "source": "Service-Public Entreprendre",
    "source_id": "service-public"
   }
