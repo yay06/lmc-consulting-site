@@ -1,6 +1,6 @@
 /* Fichier généré automatiquement par outils/flux_actualites.py : ne pas modifier à la main. */
 window.LMC_FLUX = {
- "maj": "2026-11-17T15:29+01:00",
+ "maj": "2026-11-18T15:04+01:00",
  "sources": [
   {
    "nom": "Service-Public Entreprendre",
@@ -26,7 +26,7 @@ window.LMC_FLUX = {
    "id": "31dba47f437e",
    "titre": "Les avis de CFE et d'IFER 2026 sont disponibles en ligne",
    "url": "https://entreprendre.service-public.gouv.fr/actualites/A19130",
-   "date": "2026-11-05",
+   "date": "2026-11-16",
    "categorie": "fiscal",
    "chapo": "Les entreprises concernées par la cotisation foncière des entreprises (CFE) et/ou l’imposition forfaitaire sur les entreprises de réseaux (IFER) peuvent désormais consulter leur avis d’impôt dans leur espace professionnel sur impots.gouv.fr .",
    "source": "Service-Public Entreprendre",
