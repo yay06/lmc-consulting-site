@@ -1,6 +1,6 @@
 /* Fichier généré automatiquement par outils/flux_actualites.py : ne pas modifier à la main. */
 window.LMC_FLUX = {
- "maj": "2026-11-18T15:04+01:00",
+ "maj": "2026-11-19T15:28+01:00",
  "sources": [
   {
    "nom": "Service-Public Entreprendre",
@@ -12,6 +12,16 @@ window.LMC_FLUX = {
   }
  ],
  "articles": [
+  {
+   "id": "94a7fe856ca9",
+   "titre": "Ticket de caisse : professionnels, quelles sont vos obligations ?",
+   "url": "https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-un-commerce/ticket-de-caisse-professionnels-quelles-sont-vos-obligations",
+   "date": "2026-11-19",
+   "categorie": "gestion",
+   "chapo": "Le ticket client est remis lors du passage en caisse et sert de preuve d’achat aux consommateurs. Quelles informations doit-il comporter ? En tant que professionnels, quelles sont vos obligations ? On fait le point.",
+   "source": "economie.gouv.fr",
+   "source_id": "economie"
+  },
   {
    "id": "9d7f00387d70",
    "titre": "Micro-entrepreneur utilisant les plateformes numériques : justificatif à fournir pour le paiement de l’ARE",
@@ -49,16 +59,6 @@ window.LMC_FLUX = {
    "date": "2026-11-04",
    "categorie": "gestion",
    "chapo": "Peu préparées aux cyberattaques, les TPE et PME sont particulièrement vulnérables à ces menaces en forte hausse. Vous souhaitez renforcer la cybersécurité de votre entreprise ? Vous former aux bonnes pratiques ? Vous ne savez pas vers qui vous tourner en cas…",
-   "source": "economie.gouv.fr",
-   "source_id": "economie"
-  },
-  {
-   "id": "033b5168195e",
-   "titre": "Tout savoir sur la CSRD",
-   "url": "https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/gerer-sa-comptabilite-et-ses-demarches/tout-savoir-sur-la-csrd",
-   "date": "2026-11-04",
-   "categorie": "juridique",
-   "chapo": "En tant qu’entreprise, vous avez des obligations de publication sur les questions environnementales, sociales et de gouvernance. Ces obligations ont notamment été renforcées par la Corporate sustainability reporting directive (CSRD). Qu’est-ce que c’est ?…",
    "source": "economie.gouv.fr",
    "source_id": "economie"
   },
