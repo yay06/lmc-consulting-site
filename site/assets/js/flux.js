@@ -1,6 +1,6 @@
 /* Fichier généré automatiquement par outils/flux_actualites.py : ne pas modifier à la main. */
 window.LMC_FLUX = {
- "maj": "2026-11-19T15:28+01:00",
+ "maj": "2026-11-21T14:30+01:00",
  "sources": [
   {
    "nom": "Service-Public Entreprendre",
@@ -12,6 +12,16 @@ window.LMC_FLUX = {
   }
  ],
  "articles": [
+  {
+   "id": "55b6f8526ecd",
+   "titre": "Les petites entreprises victimes de dégradations peuvent bénéficier d'une aide exceptionnelle",
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19152",
+   "date": "2026-11-20",
+   "categorie": "gestion",
+   "chapo": "Suite aux violences urbaines et aux dégradations survenues le 17 octobre 2026, un nouveau dispositif de soutien financier est mis en place. Il vise à soutenir les petites entreprises et est mobilisable à partir du 21 novembre 2026.",
+   "source": "Service-Public Entreprendre",
+   "source_id": "service-public"
+  },
   {
    "id": "94a7fe856ca9",
    "titre": "Ticket de caisse : professionnels, quelles sont vos obligations ?",
@@ -51,16 +61,6 @@ window.LMC_FLUX = {
    "chapo": "Les entreprises du secteur du bâtiment et des travaux publics utilisant du gazole non routier peuvent solliciter une aide exceptionnelle. Cette mesure a été mise en place en mai 2026 suite à la hausse des prix du carburant dans le contexte de la guerre au…",
    "source": "Service-Public Entreprendre",
    "source_id": "service-public"
-  },
-  {
-   "id": "548cd8d57fb1",
-   "titre": "Cybersécurité : des dispositifs publics gratuits pour vous accompagner",
-   "url": "https://www.economie.gouv.fr/entreprises/gerer-son-entreprise-au-quotidien/assurer-sa-cybersecurite-et-la-protection-de-ses-donnees/cybersecurite-des-dispositifs-publics-gratuits",
-   "date": "2026-11-04",
-   "categorie": "gestion",
-   "chapo": "Peu préparées aux cyberattaques, les TPE et PME sont particulièrement vulnérables à ces menaces en forte hausse. Vous souhaitez renforcer la cybersécurité de votre entreprise ? Vous former aux bonnes pratiques ? Vous ne savez pas vers qui vous tourner en cas…",
-   "source": "economie.gouv.fr",
-   "source_id": "economie"
   },
   {
    "id": "3c11c268827f",
