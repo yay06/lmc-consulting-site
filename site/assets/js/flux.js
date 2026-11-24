@@ -1,6 +1,6 @@
 /* Fichier généré automatiquement par outils/flux_actualites.py : ne pas modifier à la main. */
 window.LMC_FLUX = {
- "maj": "2026-11-21T14:30+01:00",
+ "maj": "2026-11-24T16:56+01:00",
  "sources": [
   {
    "nom": "Service-Public Entreprendre",
@@ -12,6 +12,16 @@ window.LMC_FLUX = {
   }
  ],
  "articles": [
+  {
+   "id": "6a5eceb7cfac",
+   "titre": "Ne manquez pas la Journée de la Stratégie PI en décembre",
+   "url": "https://entreprendre.service-public.gouv.fr/actualites/A19150",
+   "date": "2026-11-23",
+   "categorie": "gestion",
+   "chapo": "L’ Inpi organise la 5 e édition de la Journée de la Stratégie PI le 4 décembre 2026. L’événement est axé autour de 3 webinaires accompagnant les entreprises vers l’innovation.",
+   "source": "Service-Public Entreprendre",
+   "source_id": "service-public"
+  },
   {
    "id": "55b6f8526ecd",
    "titre": "Les petites entreprises victimes de dégradations peuvent bénéficier d'une aide exceptionnelle",
@@ -799,16 +809,6 @@ window.LMC_FLUX = {
    "date": "2026-05-19",
    "categorie": "social",
    "chapo": "Dans un arrêt rendu le 9 avril 2026, la Cour de cassation précise les modalités de validité d’une convention de forfait en jours.",
-   "source": "Service-Public Entreprendre",
-   "source_id": "service-public"
-  },
-  {
-   "id": "7ef18e222aab",
-   "titre": "Transmission et reprise d’une entreprise : un guide pour vous aider",
-   "url": "https://entreprendre.service-public.gouv.fr/actualites/A18913",
-   "date": "2026-05-18",
-   "categorie": "gestion",
-   "chapo": "Un guide unique visant à aider les entrepreneurs dans la reprise et la transmission d’une entreprise vient d’être publié par le Ministère des petites et moyennes entreprises. Il s’adresse à deux profils d’entrepreneurs : le cédant et le repreneur.",
    "source": "Service-Public Entreprendre",
    "source_id": "service-public"
   }
